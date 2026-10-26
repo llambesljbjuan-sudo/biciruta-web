@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+header {
+  background: #152a1d;
+  color: white;
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+  display: none;
+  padding: 0;
+}
+nav ul.abierto {
+  display: block;
+}
+.producto {
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  width: 220px;
+  display: inline-block;
+}
+.precio {
+  color: #2c7a3f;
+  font-size: 22px;
+  font-weight: bold;
+}
+.oferta {
+  color: #bbbbbb;
+}
