@@ -22,32 +22,20 @@
       <div class="producto">
         <h2>Bici Urbana U100</h2>
         <p class="precio">389,00 €</p>
-        <button onclick="anadir('Bici Urbana U100')">Añadir</button>
+        <button>Añadir</button>
       </div>
       <div class="producto">
         <h2>Casco Urban M</h2>
         <p class="precio oferta">39,90 €</p>
-        <button onclick="anadir('Casco Urban M')">Añadir</button>
+        <button>Añadir</button>
       </div>
       <div class="producto">
         <h2>Candado U Pro</h2>
         <p class="precio">29,95 €</p>
-        <button onclick="anadir('Candado U Pro')">Añadir</button>
+        <button>Añadir</button>
       </div>
       <p>Productos en el carrito: <span id="contador">0</span></p>
     </main>
-    <script>
-      let carrito = [];
-      function anadir(producto) {
-        carrito.push(producto);
-        document.getElementById("contador").textContent = carrito.lenght;
-        console.log("Añadido:", producto);
-      }
-      document
-        .getElementById("boton-menu")
-        .addEventListener("click", function () {
-          document.getElementById("menu").classList.toggle("abierto");
-        });
-    </script>
+    <script src="js/app.js"></script>
   </body>
 </html>
