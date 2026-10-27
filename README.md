@@ -20,3 +20,7 @@ biciruta-web/
 2. Tener instalada la extensión **Live Server**.
 3. Abrir `index.html` y pulsar **Go Live** en la barra inferior.
 4. La web se abre en el navegador en `http://127.0.0.1:5500`.
+
+## Autor
+
+Juan Llambes · CFGS ASIR 1.º · Lenguajes de Marcas
