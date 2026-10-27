@@ -2,7 +2,7 @@ let carrito = [];
 
 function anadir(producto) {
   carrito.push(producto);
-  document.getElementById("contador").textContent = carrito.lenght;
+  document.getElementById("contador").textContent = carrito.length;
   console.log("Añadido:", producto);
 }
 
@@ -14,6 +14,6 @@ document.querySelectorAll(".producto button").forEach(function (boton) {
   });
 });
 
-document.getElementById("boton-menu").addEventListener("click", function () {
+document.getElementById("btn-menu").addEventListener("click", function () {
   document.getElementById("menu").classList.toggle("abierto");
 });
